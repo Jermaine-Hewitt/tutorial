@@ -7,6 +7,6 @@
     },
     {
       "groupName": "projectB",
-      "matchPaths": ["projectB/"],
+      "matchPaths": ["projectB/"]
     }]
 }
