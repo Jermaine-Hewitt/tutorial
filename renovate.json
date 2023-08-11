@@ -1,12 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
-    {
-      "groupName": "projectA",
-      "matchPaths": ["projectA/"]
-    },
-    {
-      "groupName": "projectB",
-      "matchPaths": ["projectB/"]
-    }]
+    { "groupName": "projectA", "matchFileNames": ["projectA/**"] },
+    { "groupName": "projectB", "matchFileNames": ["projectB/**"] }
+  ]
 }
